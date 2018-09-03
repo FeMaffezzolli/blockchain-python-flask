@@ -2,6 +2,7 @@ import hashlib
 import json
 from time import time
 from uuid import uuid4
+from textwrap import dedent
 
 class Blockchain(object):
     
@@ -100,3 +101,6 @@ class Blockchain(object):
         guess_hash = hashlib.sha256(guess).hexdigest()
         
         return guess_hash[:4] == "0000"
+
+
+# A partir daqui desenvolver API
