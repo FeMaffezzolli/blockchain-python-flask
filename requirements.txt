@@ -1,0 +1,4 @@
+python==3.6.5
+Flask==0.12.2
+requests==2.18.4
+uuid==1.30
